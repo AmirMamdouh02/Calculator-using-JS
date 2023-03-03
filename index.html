@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icons8-calculator-16.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Calculator</title>
+</head>
+<body>
+
+
+  <div class="container">
+    <div class="calculator">
+    <div class="output">
+      <div id="upper"></div>
+      <div id="lower"></div>
+    </div>
+    <div class="input">
+      <button class="btn btn-info" onclick="pressAllClear()">AC</button>
+      <button class="btn btn-info" onclick="pressNum(this)">0</button>
+      <button class="btn btn-info" onclick="pressClear()"><i class="fas fa-backspace"></i></button>
+      <button class="btn btn-info" onclick="pressOperator(this)">+</button>
+      <button class="btn btn-info" onclick="pressNum(this)">1</button>
+      <button  class="btn btn-info" onclick="pressNum(this)">2</button>
+      <button class="btn btn-info" onclick="pressNum(this)">3</button>
+      <button class="btn btn-info" onclick="pressOperator(this)">-</button>
+      <button class="btn btn-info" onclick="pressNum(this)">4</button>
+      <button class="btn btn-info" onclick="pressNum(this)">5</button>
+      <button class="btn btn-info" onclick="pressNum(this)">6</button>
+      <button class="btn btn-info" onclick="pressOperator(this)">&times;</button>
+      <button class="btn btn-info" onclick="pressNum(this)">7</button>
+      <button class="btn btn-info" onclick="pressNum(this)">8</button>
+      <button class="btn btn-info" onclick="pressNum(this)">9</button>
+      <button class="btn btn-info" onclick="pressOperator(this)">&div;</button>
+      <button class="btn btn-info" onclick="pressDot()">.</button>
+      <button class="btn btn-info" onclick="pressBracket(this)">(</button>
+      <button class="btn btn-info" onclick="pressBracket(this)">)</button>
+      <button class="btn btn-danger" onclick="pressEqual()">=</button>
+  </div>
+
+</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
